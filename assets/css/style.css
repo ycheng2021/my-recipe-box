@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.phone {
+    width: 428px;
+    height: 926px;
+    background-color: grey;
+    border-radius: 30px;
+}
