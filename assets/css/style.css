@@ -1,54 +1,82 @@
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    font-family: 'Lobster Two', cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: "Lobster Two", cursive;
 }
 
 .phone {
-    width: 400px;
-    background-color: white;
-    box-shadow: 5px 5px 5px 5px rgb(221, 221, 221);
+  width: 400px;
+  background-color: white;
+  box-shadow: 5px 5px 5px 5px rgb(221, 221, 221);
 }
 
 .headers {
-    padding-top: 10px;
-    display: flex;
-    justify-content: space-between;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
 }
 
 img {
-    width: 100%;
-    border-radius: 10px 10px 0 0;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
 }
 
 .fa-clock {
-    padding: 0 5px;
+  padding: 0 5px;
 }
 
 .tab {
-    margin: 0;
-    padding: 0 10px;
-    height: 40px;
-    width: 100%;
-    box-shadow: 4px 0 4px rgb(201, 201, 201);
-    border-radius: 20px 20px 0 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  margin: 0;
+  padding: 0 10px;
+  height: 40px;
+  width: 100%;
+  box-shadow: 4px 0 4px rgb(201, 201, 201);
+  border-radius: 20px 20px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .meal {
-    margin: 15px;
-    box-shadow: 3px 3px 3px 3px rgb(221, 221, 221);
-    border-radius: 10px;
+  margin: 15px;
+  box-shadow: 3px 3px 3px 3px rgb(221, 221, 221);
+  border-radius: 10px;
 }
 
 .meal-basic {
-    height: 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 10px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.img-container {
+  width: 100%;
+  position: relative;
+  max-height: 200px;
+  overflow: hidden;
+  display: block;
+}
+
+.toast {
+  transform: translateY(-20%);
+}
+
+.meatballs {
+    transform: translateY(-20%);
+}
+
+.salmon {
+    transform: translateY(-50%);
+}
+
+.tab {
+    cursor: pointer;
+}
+
+.tab:hover {
+    background-color: lightgrey;
 }
